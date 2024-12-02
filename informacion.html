@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mas informacion</title>
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fuentes y tipografía */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Estilos generales */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Estilo para el menú */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #444;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            transform: scale(1.1);
+        }
+
+        /* Estilo para las secciones */
+        .section {
+            padding: 60px 20px;
+            background-color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        /* Estilos del botón */
+        .back-button {
+            display: inline-block;
+            background-color: #e67e00;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            margin-top: 20px;
+            margin-bottom: 40px; /* Separación entre el botón y el pie de página */
+        }
+
+        .back-button:hover {
+            background-color: #d45700;
+            transform: scale(1.1);
+        }
+
+        /* Flecha hacia atrás */
+        .back-button:before {
+            content: '\2190'; /* Flecha hacia la izquierda */
+            margin-right: 10px;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Media Queries para Responsividad */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado con menú -->
+    <header>
+        <h1>Boca la Caja</h1>
+        <p>Descubre todo sobre nuestro corregimiento</p>
+    </header>
+
+    <!-- Sección de Información General -->
+    <div id="info" class="section">
+        <h2>Información General</h2>
+        <p>El corregimiento de Boca la Caja se divide en tres calles principales: Calle Primera, Calle Segunda y Calle Tercera. Además, está conformado por ocho sectores. Cuenta con servicios esenciales como un centro de salud, una biblioteca, un parque con canchas de fútbol y baloncesto, y juegos para niños.</p>
+        <p>Una de sus principales características es la iglesia Virgen de la Caridad del Cobre, la cual tiene una historia interesante: fue encontrada en la playa por unos pescadores, razón por la cual se le conoce como "Tierra de Pecadores". Cada 8 de septiembre se celebran las patronales en honor a la Virgen, comenzando el 30 de agosto con actos religiosos y culturales, como el reinado de la Señorita 8 de Septiembre, y procesiones tanto acuáticas como por la vía principal.</p>
+        <p>El corregimiento también cuenta con una escuela, la escuela Federico A. Avelásquez, y es conocido por su tradición pesquera, ya que muchos de sus habitantes fabrican sus propios botes y redes a mano.</p>
+    </div>
+
+    <!-- Sección de Historia y Orígenes -->
+    <div id="historia" class="section">
+        <h2>Historia y Orígenes</h2>
+        <p>Boca la Caja comenzó a formarse en las décadas de 1940 y 1950, principalmente por familias de pescadores y trabajadores de la construcción. El barrio nació como una comunidad de viviendas informales, habitada por personas de escasos recursos, aunque está rodeado por zonas de mayor nivel económico como Punta Paitilla y San Francisco.</p>
+        <p>A lo largo de los años, Boca la Caja ha sido testigo de un crecimiento urbano significativo, enfrentando desafíos en cuanto a la urbanización y el acceso a servicios básicos. A pesar de estos desafíos, el barrio conserva una fuerte identidad comunitaria.</p>
+    </div>
+
+    <!-- Sección de Lugares de Interés -->
+    <div id="lugares" class="section">
+        <h2>Lugares de Interés</h2>
+        <p>En Boca la Caja no hay grandes plazas, pero cuenta con algunos parques y espacios de recreación informal. En los últimos años, se han pintado varios murales que reflejan la vida y la historia del barrio, lo que aporta un toque artístico y cultural al área.</p>
+        <p>La proximidad al área de Punta Paitilla y la vista hacia la bahía de Panamá son aspectos destacados de la zona. Además, el barrio es conocido por su mercado local y sus pequeñas tiendas de barrio, que son un reflejo de la vida cotidiana de los pescadores y sus familias.</p>
+    </div>
+
+    <!-- Botón de regreso -->
+    <a href="index.html" class="back-button">Atrás</a>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Boca la Caja. Todos los derechos reservados. Alexandra Ceballo,Kathlen Galindo,Jorge Muñoz,Melany Garcia,Joselin Delgado</p>
+    </footer>
+
+</body>
+</html>
